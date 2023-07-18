@@ -1,0 +1,45 @@
+CRITICAL - 2023-07-14 19:03:35 --> Class 'App\Controllers\Controllers' not found
+in APPPATH\Controllers\Blog.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Blog.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Blog')
+ 6 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 7 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 19:04:17 --> Use of undefined constant myview - assumed 'myview' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Blog.php on line 9.
+ 1 APPPATH\Controllers\Blog.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant myview - assumed \'myview\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Blog.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 20:08:08 --> syntax error, unexpected 'assets' (T_STRING), expecting ')'
+in APPPATH\Views\myview.php on line 379.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(9): view('myview')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 20:10:25 --> syntax error, unexpected 'assets' (T_STRING), expecting ')'
+in APPPATH\Views\myview.php on line 379.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(9): view('myview')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 20:10:28 --> syntax error, unexpected 'assets' (T_STRING), expecting ')'
+in APPPATH\Views\myview.php on line 379.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(9): view('myview')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

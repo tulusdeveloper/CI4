@@ -1,0 +1,22 @@
+CRITICAL - 2023-07-18 13:37:25 --> Undefined variable: page_title
+in APPPATH\Views\myview.php on line 6.
+ 1 APPPATH\Views\myview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page_title', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\myview.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(13): view('myview')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:40:00 --> Undefined variable: page_title
+in APPPATH\Views\myview.php on line 6.
+ 1 APPPATH\Views\myview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page_title', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\myview.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(13): view('myview')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
