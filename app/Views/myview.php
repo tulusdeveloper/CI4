@@ -7,5 +7,15 @@
 </head>
 <body>
     <H1><?= $page_heading; ?></H1>
+    <h3>Subjects List</h3>
+    <ul>
+        <?php
+        foreach($subject as $sub):
+            ?>
+            <li><?= $sub; ?></li>
+            <?php
+        endforeach;
+        ?>
+    </ul>
 </body>
 </html>
